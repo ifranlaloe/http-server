@@ -8,6 +8,6 @@ serve(async (req) => {
     return new Response("Received", { status: 200 });
   }
   return new Response("Not Found", { status: 404 });
-}, { port: 3000 });
+}, { port: 80 });
 
-console.log("HTTP server running on http://localhost:3000/v1/throw");
+console.log("HTTP server running on http://localhost:80/v1/throw");
