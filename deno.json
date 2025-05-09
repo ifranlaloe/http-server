@@ -1,5 +1,5 @@
 {
-  "name": "@ifranlaloe/tibco-bpm-tools",
+  "name": "@ifranlaloe/http-server",
   "description": "Simple http server",
   "tasks": {
     "start-server": "deno run -A src/server.ts"
