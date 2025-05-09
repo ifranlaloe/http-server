@@ -1,0 +1,23 @@
+{
+  "name": "@ifranlaloe/tibco-bpm-tools",
+  "description": "Simple http server",
+  "tasks": {
+    "start-server": "deno run -A src/server.ts"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "lib": ["deno.window"]
+  },
+  "imports": {},
+  "fmt": {
+    "indentWidth": 2,
+    "singleQuote": false,
+    "lineWidth": 100
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
